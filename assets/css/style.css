@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Helvetica, verdana sans-serif;
+    font-size: 16px;
+}
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+main {
+    margin: 150px 0px 0px 0px;
+}
+#photo {
+    height: auto;
+    width: auto; 
+    max-width: 800px;
+    max-height: 800px; 
+    margin: 0px 0px 20px 50px; 
+}
+.green {
+    padding: 50px;
+    background-color: forestgreen;
+}
+form, h2 {
+    padding: 30px;
+    background-color: bisque;
+}
+section {
+    background-color: sandybrown;
+}
+p {
+    padding: 20px;
+}

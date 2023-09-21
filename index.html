@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
+    <header class="green">
+        <h1>Mini Project Website</h1>
+        <nav>
+            <a href="#main-section">Main Section</a>
+            <a href="#photo">Image</a>
+            <a href="#contact-form">Contact</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="main-section">
+            <h2>The cutest dog in existence</h2>
+            <p>Meet Picasso. He is a 14 year old border collie, although the below photo was taken a few years ago, when he was in his prime.</p>
+            <div class="photo-container">
+                <img id ="photo" src="./assets/images/P1010353.JPG" alt="A photo of the cutest dog in existence" height="240" width="360"/>
+            </div>
+        </section>
+        <form id="contact-form">
+            <p>Enter Your Name:<input type="text" name="username" size="15" maxlength="20" />
+            </p>
+            <p>Enter Your email:<input type="email" name="email" size="15" maxlength="40" />
+            </p>
+            <button role="button" type="submit">Send</button> 
+        </form>
+    </main>
+    <footer class="green">
+        <p>&copy; 2023</p>
+    </footer>
     
 </body>
 </html>
